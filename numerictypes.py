@@ -33,3 +33,24 @@ print(f)
 o = 0o74 #Octodecimal value
 print(o)
 
+g = True # Decimal values
+h : bool = False
+print(g)
+print(h)
+print(type(g))
+print(type(h))
+
+print(10 < 15)
+print(type(10 < 15))
+
+h = int(45.6) # Casting it to an integer?
+print(h)
+print(type(h))
+
+i = float("22.5")
+print(i)
+print(type(i))
+
+x = bin(10)
+print(x)
+print(type(x))
