@@ -34,3 +34,12 @@ print(x.replace("a","A"))
 
 print(x)
 print(x.strip())
+
+print(x.find("abc"))
+print(x.find("def")) # Returns the index at which it found the first character of the string
+print(x.find("dff")) # Returns -1 since not found
+print(x.find("abc",0,5))
+print(x.find("abc",0))
+print(x.find("abc",3))
+
+print(x.count("abc")) # Returns the number of tiems abc appears in x
