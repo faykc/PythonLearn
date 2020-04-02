@@ -11,3 +11,6 @@ print(z[4])
 print(z[4][0])
 print(z.count(2))
 print(z.index(1))
+
+lst = [10,20]
+tpl = tuple(lst)
