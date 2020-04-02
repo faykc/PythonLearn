@@ -18,4 +18,6 @@ print(lst2)
 print(lst2)
 lst2.insert(0,"Hello")
 print(lst2)
-
+lst = [1,2,0,10]
+lst.sort()
+print(lst)
