@@ -22,3 +22,7 @@ print(x!=y)
 print(x>=y)
 print(x<=y)
 
+x,y=20,30
+print(x==20 and y==30)
+print(x==21 or y==30)
+print(x==255555 and y==30)
