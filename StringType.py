@@ -43,3 +43,4 @@ print(x.find("abc",0))
 print(x.find("abc",3))
 
 print(x.count("abc")) # Returns the number of tiems abc appears in x
+
