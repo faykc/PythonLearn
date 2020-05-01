@@ -24,3 +24,18 @@ a = [1,2,3]
 b = a
 productlst = [a[i] * b[i] for i in range(len(a))]
 
+def commonElems(l1,l2):
+    common = []
+    for x in range(len(l1)):
+        for y in range(len(l2)):
+            if(l1[x] == l2[y]):
+                common.append(l1[x])
+                break
+    return common
+
+print(commonElems([1,2,3], [2,5,6]))
+
+a = [1,2,3]
+b=[2,5,6]
+commonelems = [x for x in a if x in b]
+print(commonelems)
