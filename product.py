@@ -13,6 +13,7 @@ class Product:
 p1 = Product("Bob","Description",10)
 print(p1)
 print(p1.getName())
+
     
     
 
